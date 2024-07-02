@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibrary", "ClassLibrary\ClassLibrary.csproj", "{7559C0F6-3AA4-4A10-9083-D9035ED62504}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibraryWithLink", "ClassLibraryWithLink\ClassLibraryWithLink.csproj", "{F7820C9E-EE68-40FF-B5B1-6391B3C110F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5EA672D6-671E-489F-834E-E144EBA74BCF}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		stylecop.json = stylecop.json
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibraryInSameFolder1", "ClassLibraryInSameFolder\ClassLibraryInSameFolder1.csproj", "{9D7D9E8B-2D77-42B2-8C14-F87804B50C78}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibraryInSameFolder2", "ClassLibraryInSameFolder\ClassLibraryInSameFolder2.csproj", "{634EF19B-E40F-4D16-8706-3776244DDC1C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibraryUsingSharedLibrary1", "ClassLibraryUsingSharedLibrary1\ClassLibraryUsingSharedLibrary1.csproj", "{15046F30-85E6-485D-AF02-2579F38735B3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibraryUsingSharedLibrary2", "ClassLibraryUsingSharedLibrary2\ClassLibraryUsingSharedLibrary2.csproj", "{B629646C-653D-4E0C-9FA0-8A18105D3184}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SharedProject", "SharedProject\SharedProject.shproj", "{B28B1F2A-274F-4BE8-A542-20231DDFD38A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7559C0F6-3AA4-4A10-9083-D9035ED62504}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7559C0F6-3AA4-4A10-9083-D9035ED62504}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7559C0F6-3AA4-4A10-9083-D9035ED62504}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7559C0F6-3AA4-4A10-9083-D9035ED62504}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7820C9E-EE68-40FF-B5B1-6391B3C110F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7820C9E-EE68-40FF-B5B1-6391B3C110F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7820C9E-EE68-40FF-B5B1-6391B3C110F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7820C9E-EE68-40FF-B5B1-6391B3C110F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D7D9E8B-2D77-42B2-8C14-F87804B50C78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D7D9E8B-2D77-42B2-8C14-F87804B50C78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D7D9E8B-2D77-42B2-8C14-F87804B50C78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D7D9E8B-2D77-42B2-8C14-F87804B50C78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{634EF19B-E40F-4D16-8706-3776244DDC1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{634EF19B-E40F-4D16-8706-3776244DDC1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{634EF19B-E40F-4D16-8706-3776244DDC1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{634EF19B-E40F-4D16-8706-3776244DDC1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15046F30-85E6-485D-AF02-2579F38735B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15046F30-85E6-485D-AF02-2579F38735B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15046F30-85E6-485D-AF02-2579F38735B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15046F30-85E6-485D-AF02-2579F38735B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B629646C-653D-4E0C-9FA0-8A18105D3184}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B629646C-653D-4E0C-9FA0-8A18105D3184}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B629646C-653D-4E0C-9FA0-8A18105D3184}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B629646C-653D-4E0C-9FA0-8A18105D3184}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {11B610C2-6879-4E25-8D76-3D6FC6055F9B}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		SharedProject\SharedProject.projitems*{15046f30-85e6-485d-af02-2579f38735b3}*SharedItemsImports = 5
+		SharedProject\SharedProject.projitems*{b28b1f2a-274f-4be8-a542-20231ddfd38a}*SharedItemsImports = 13
+		SharedProject\SharedProject.projitems*{b629646c-653d-4e0c-9fa0-8a18105d3184}*SharedItemsImports = 5
+	EndGlobalSection
+EndGlobal
